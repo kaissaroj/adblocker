@@ -1,0 +1,43 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+  "name": "NepAdKiller || kais ",
+  "version": "0.1",
+  "description": "Kill Nepal Online News Protal Ads",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["filters.js", "background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.onlinekhabar.com/*",
+        "*://*.ekantipur.com/*",
+        "*://*.osnepal.com/*",
+        "*://*.news24nepal.tv/*",
+        "*://*.ratopati.com/*",
+        "*://*.annapurnapost.com/*",
+        "*://*.bigulnews.tv/*",
+        "*://*.baahrakhari.com/*",
+        "*://*.lokaantar.com/*",
+        "*://*.nayapatrikadaily.com/*",
+        "*://*.thahakhabar.com/*",
+        "*://*.dcnepal.com/*",
+        "*://*.nepalkhabar.com/*"
+      ],
+      "js": ["script.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "browser_action": {
+    "default_title": "Test",
+    "default_popup": "popup.html"
+  }
+}
