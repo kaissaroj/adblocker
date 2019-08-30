@@ -1,5 +1,5 @@
 # Adblocker
-AdBlocker/Remover for Online News Website Portal in Nepal
+AdBlocker/Remover for Online News Website Portal in Nepal 
 
 <h3>Process to install in Google Chrome as extension : </h3>
 <ul>
@@ -11,4 +11,7 @@ AdBlocker/Remover for Online News Website Portal in Nepal
 <li>Done.</li>
 </ul>
 <p>
+</p>
+<p>
+OR check Video Tutorial for installation: <a href="https://drive.google.com/file/d/1vxB5YlrWlgJhYJPxrULlFPXIsr5ifPs_/view" target="_blank">link</a>
 </p>
